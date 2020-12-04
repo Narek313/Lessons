@@ -1,0 +1,56 @@
+*{
+	transition: all 0.2s;
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	margin: 25px auto;
+	width: 400px;
+	height: auto;
+	background-color: #ddd;
+	text-align: left;
+	padding: 15px;
+	overflow: hidden;
+	outline: 2px dashed tomato;
+	outline-offset: -5px;
+	border-radius: 8px;
+
+}
+
+.p_box{
+	font-size: 28px;
+	color: #333;
+	padding: 1px;
+	margin: 0;
+}
+ button{
+	border: 1px solid coral;
+	margin: 5px;
+	color: coral;
+	padding: 12px 18px;
+	background: #000;
+
+}
+
+button:hover{
+	background-color: coral;
+	color:#000;
+}
+.imgBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin: 15px;
+	border: 3px double coral;
+
+}

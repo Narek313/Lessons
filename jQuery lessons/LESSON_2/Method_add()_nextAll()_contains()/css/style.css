@@ -1,0 +1,12 @@
+.blue{
+	color:blue;
+}
+.bgRed{
+	background-color: red;
+}
+
+.selected{
+	border:3px solid #D81B60;
+	padding: 5px;
+	margin: 2px 0;
+}

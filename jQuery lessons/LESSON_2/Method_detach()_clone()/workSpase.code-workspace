@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Method_val()_form"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}

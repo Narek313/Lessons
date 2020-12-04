@@ -1,0 +1,55 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	width: 200px;
+	text-align: center;
+}
+
+.hot {
+	background-color: tomato;
+}
+
+ul li {
+	padding: 10px;
+}
+
+.info {
+	background-color: #444;
+	padding: 8px;
+	color: whitesmoke;
+	width: 350px;
+	margin-left: 20px;
+	font-size: 20px;
+	position: fixed;
+	top: 50px;
+	left: 250px;
+}
+
+#btn {
+	position: fixed;
+	top: 20px;
+	left: 300px;
+	background-color: #333;
+	padding: 8px;
+	color: whitesmoke;
+	border: 3px solid rgb(209, 107, 112);
+	font-size: 16px;
+}
+
+#btn:active {
+	background-color: rgb(149, 53, 35);
+	border: 3px solid rgb(7, 172, 43);
+}
+
+.xxx{
+	width: 300px;
+	height: 300px;
+	background-color: #101010;
+	padding: 30px;
+	border-radius: 20px;
+	color:whitesmoke;
+}

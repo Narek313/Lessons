@@ -1,5 +1,5 @@
 import React from 'react'
-import Child from './components/component'
+import Child from './component'
 
 
 export default class App extends React.Component{

@@ -2,14 +2,14 @@ $(function () {
 	
 	let position = 0; 		// Նախնական դիրք
  	let slidesToShow = 3;   // Քանի էլեմենտ ցույց տալ
-	let slidesToScroll = 3 ;// քանի էլեմենտ Scroll անել
+	let slidesToScroll = 3 ;// Քանի էլեմենտ Scroll անել
 	const container = $(".slider-container ");
 	const track = $(".slider-track");
 	const item = $(".slider-item");
 	const btnPrev = $(".btn-prev");
 	const btnNext = $(".btn-next");
-	const itemCount = item.length; 	//Էլեմենտնեռր նախնական քանակ
-	// ստանում ենքամեն մի էլեմենտի երկարությունը 
+	const itemCount = item.length; 	//Էլեմենտների նախնական քանակ
+	// Ստանում ենք ամեն մի էլեմենտի երկարությունը 
 	const itemWidth = container.width() / slidesToShow;
 
 	const movePosition = slidesToScroll  * itemWidth;
@@ -35,8 +35,8 @@ let images = [
 	})
 
 	btnNext.on("click", function () {
-		// ընդհանուր Էլեմենտնեռրի քանակից հանում ենք Scroll արաց Էլեմենտնեռրի քանակը
-		// Ստանում ենք մնացած սայդների քանակը
+		// Ընդհանուր Էլեմենտների քանակից հանում ենք Scroll արած Էլեմենտների քանակը
+		// Ստանում ենք մնացած սլայդների քանակը
 		const mnacord = itemCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
 		position -= mnacord >= slidesToScroll ? movePosition : mnacord * itemWidth;
 		setPosition();

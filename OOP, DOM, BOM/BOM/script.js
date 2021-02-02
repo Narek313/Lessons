@@ -11,7 +11,7 @@ Since modern browsers have implemented (almost) the same methods and properties 
 
 _____The Window Object_____
 
-he window object is supported by all browsers. It represents the browser's window.
+The window object is supported by all browsers. It represents the browser's window.
 
 All global JavaScript objects, functions, and variables automatically become members of the window object.
 
@@ -227,6 +227,7 @@ __________________JavaScript Cookies__________________
 Cookies let you store user information in web pages.
 
 _____What are Cookies?_____
+
 Cookies are data, stored in small text files, on your computer.
 
 When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user.

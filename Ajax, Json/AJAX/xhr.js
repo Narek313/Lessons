@@ -5,11 +5,7 @@ AJAX is a developer's dream, because you can:
 2. Update a web page without reloading the page
 3. Send data to a web server - in the background
 
-AJAX is not a programming language.
-
 AJAX is a technique for accessing web servers from a web page.
-
-AJAX stands for Asynchronous JavaScript And XML.
 
 _________________What is AJAX?_________________
 

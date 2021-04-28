@@ -1,0 +1,19 @@
+.box1,.box2{
+    height: 450px;
+    width: 450px;
+    display: inline-block;
+}
+.box1{
+    border-radius: 0% 50% 50% 0%;
+    background-image: url(https://images.pexels.com/photos/2050990/pexels-photo-2050990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+}
+.box2{
+    border-radius: 50% 0 0 50%;
+    background-image: url(https://images11.graziamagazine.ru/upload/img_cache/333/3334ef15837a71e320917c3ed9a2189b_ce_6000x4000x0x0_cropped_740x493.jpeg);
+    background-size: cover;
+}
+.box{
+    width: 68%;
+    margin: 100px auto;
+}

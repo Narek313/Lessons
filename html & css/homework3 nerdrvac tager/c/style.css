@@ -1,0 +1,19 @@
+p{
+	height: 300px;
+	width: 650px;
+	display: block;
+	font-size: 20px;
+}
+.box1{
+	background-color: lightblue;
+	color: white;
+}
+.box2{
+	background-color: orangered;
+	color:black;
+}
+img{
+	height: 200px;
+	width: 325px;
+	float: left;
+}

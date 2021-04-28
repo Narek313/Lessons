@@ -20,7 +20,7 @@ async function async() {
     } catch(err) {
         console.log(err)
     } finally {
-        console.log("Finally")
+        console.log("Finish")
     }
 }
 async();
@@ -28,6 +28,6 @@ async();
 
 //___________________________________________________________
 
-// await - spasum e minchev avartvi Promisy, heto ancnum e myus Promisein
-// async - grvum e functiayic araj vori mej petq e ogtagorcenq await ,  Promise e
+// await - spasum e minchev avartvi Promisy, heto ancnum e myus Promise-in
+// async - grvum e functionic araj vori mej petq e ogtagorcenq await ,  Promise e
 // try, catch - error-i hamar

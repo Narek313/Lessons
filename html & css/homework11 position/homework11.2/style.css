@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    margin:200px auto;
+    width: 805px;
+}
+.box1,.box2{
+    width: 400px;
+    height: 90px;
+    background-color: #475596;
+    position: relative;
+    box-shadow: 0,0,5px,20px,black;
+    display: inline-block;
+    color: white;
+    box-shadow: -2px 5px 10px 0 rgb(104, 103, 103);
+}
+.box1 .icon{
+    background-color:#475596 ;
+}
+.box2,.icon{
+    background-color: #40A5EC;
+}
+.icon{
+    width: 100px;
+    height: 90px;
+    padding: 15px 25px;
+    font-size: 3.5em;
+    border-right: #3C4880 solid 2px;
+}
+p{
+    position: absolute;
+    font-size: 3em;
+    left: 150px;
+    top: 15px;
+}

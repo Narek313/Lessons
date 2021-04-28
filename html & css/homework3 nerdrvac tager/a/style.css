@@ -1,0 +1,44 @@
+p,.pre{
+	font-size: 20px;
+	height: 50px;
+}
+.box1{
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	width: 70%;
+}
+.pre{
+	background-color: purple;
+	color: blue;
+	display: block;
+	padding: 20px 20px 20px 60px;
+	width: 78%;
+	text-align: right;
+
+}
+.box2{
+	background-color: green;
+	color:red;
+	display: block;
+	padding: 20px;
+	width: 85%;
+}
+mark{
+	background-color:white; 
+}
+sup{
+	color: pink;
+}
+span{
+	text-decoration: underline solid;
+	color: white;
+}
+body{
+	margin-top: 150px;
+}
+b{
+	color: red;
+	font-size: 30px;
+}

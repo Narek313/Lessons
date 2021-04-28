@@ -1,0 +1,33 @@
+fieldset{
+    width: 25%;
+    background-color: #DDD;
+    border: none;
+    font-size: small;
+    margin: 0 auto;
+}
+input{
+    display: block;
+    margin: 8px 0;
+    border: 1px solid #BDBDBD;
+    padding: 3px; 
+}
+input[type="radio"],input[type="checkbox"]{
+    display: inline-block;
+    border: 1px solid #BDBDBD;
+}
+#submit, #reset{
+    display: inline-block;
+    color: orangered;
+    padding: 6px 30px;
+    font-size: large;
+    background-color:#CBCBCB;
+    border: outset 2px #CECECE;
+    margin-left: 10px;
+}
+textarea{
+    margin-top: 10px;
+    border: 1px solid #BDBDBD;
+}
+#anun,#azganun,#email,#tel{
+    width: 130px;
+}

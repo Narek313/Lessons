@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #11418D;
+}
+p{
+    color: white;
+    font-size: 4em;
+    font-weight: 900;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+div{
+    position: absolute;
+}
+.circle{
+    width: 450px;
+    height: 450px;
+    background-color: #FFE1E1;
+    border-radius: 50%;
+    left: 600px;
+    top: 100px;
+}
+.box1{
+    width: 250px;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1596146851398-ec71d0ff0eba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background-position: center;
+    background-size: cover;
+    left: 880px;
+    top: 120px;
+}
+.box2{
+    width: 250px;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1593642532781-03e79bf5bec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background-size: cover;
+    background-position: bottom;
+    left: 750px ;
+    top: 30px;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1596166645297-4b0d06fb84cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    left: 650px;
+    top: 275px;
+}
+.box1, .box2, .box3{
+    box-shadow: 0 0 40px 10px  rgb(119, 116, 116);
+}

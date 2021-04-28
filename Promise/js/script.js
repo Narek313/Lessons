@@ -47,18 +47,18 @@ function binary(e) {
 
 //___________________________________________________________________
 
-// const sleep = ms => {
-//     return new Promise(resolve => {
-//         setTimeout(() => resolve(), ms)
-//     });
-// };
+const sleep = ms => {
+    return new Promise(resolve => {
+        setTimeout(() => resolve(), ms)
+    });
+};
 
-// Promise.all([sleep(2000), sleep(5000)]).then(() => {
-//     console.log("All Promises");
-// })
+Promise.all([sleep(2000), sleep(5000)]).then(() => {
+    console.log("All Promises");
+})
 // kta "All Promises", erb vor avartven zangvaci meji bolor promisenery
 
-// Promise.race([sleep(2000), sleep(5000)]).then(() => {
-//     console.log("First Promise")
-// })
+Promise.race([sleep(2000), sleep(5000)]).then(() => {
+    console.log("First Promise")
+})
 // kta "First Promise", erb vor avartvi zangvaci meji amenaarag Promisy

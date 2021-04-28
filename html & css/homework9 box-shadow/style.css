@@ -1,0 +1,19 @@
+div{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-image: url(https://i.pinimg.com/originals/52/a2/d2/52a2d2777d51a3a5d567ad1eb2ce853c.jpg);
+    background-size: cover;
+    margin: 100px auto;
+    box-shadow: 0 0 20px 5px white;
+}
+body{
+    background-color: #3D3C3C;
+}
+div:hover{
+    box-shadow:
+    0 0 0 20px orange,
+    0 0 0 40px blue,
+    0 0 0 60px red;
+    transition: 1s;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    transition: all 0.5s;
+    width: 24%;
+    height: 300px;
+    display: inline-block;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 984px) and (min-width: 657px) {
+    div {
+        background-color: red;
+        width: 32%;
+    }
+
+    .box4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 656px) and (min-width: 501px) {
+    div {
+        background-color: green;
+    }
+
+    .box1,
+    .box2 {
+        width: 49%;
+    }
+
+    .box3 {
+        width: 98.6%;
+    }
+
+    .box4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div {
+        background-color: orangered;
+        width: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 32%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    grid-template-areas: "d3 d2 d2 d1"
+        "d3 d4 d5 d5"
+        "d10 d7 d5 d5"
+        "d10 d6 d6 d9"
+        "d11 d11 d8 d9";
+}
+
+.container div {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+    color: white;
+}
+
+.item3,
+.item5,
+.item9,
+.item10 {
+    padding: 75px 0 !important;
+}
+
+.item1 {
+    grid-area: d1;
+    background-color: #CD2A2E;
+}
+
+.item2 {
+    grid-area: d2;
+    background-color: #7A8E9A;
+}
+
+.item3 {
+    grid-area: d3;
+    background-color: #87C54D;
+}
+
+.item4 {
+    grid-area: d4;
+    background-color: #66BC6A;
+}
+
+.item5 {
+    grid-area: d5;
+    background-color: #FACE81;
+}
+
+.item6 {
+    grid-area: d6;
+    background-color: #45A8FE;
+}
+
+.item7 {
+    grid-area: d7;
+    background-color: #F6B8CF;
+}
+
+.item8 {
+    grid-area: d8;
+    background-color: #4A8DF1;
+}
+
+.item9 {
+    grid-area: d9;
+    background-color: #B396D8;
+}
+
+.item10 {
+    grid-area: d10;
+    background-color: #956BC7;
+}
+
+.item11 {
+    grid-area: d11;
+    background-color: #8BD0F9;
+}

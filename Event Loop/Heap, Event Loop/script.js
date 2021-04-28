@@ -15,6 +15,7 @@
 //________________________________________________________________
 
 const s = new Date().getSeconds();
+console.log(s)
 
 setTimeout(function() {
   // prints out "2", meaning that the callback is not called immediately after 500 milliseconds.

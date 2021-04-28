@@ -1,0 +1,48 @@
+fieldset{
+    width: 40%;
+    height: 200px;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 20px;
+}
+h1{
+    color: #565656;
+    font-size: 3em;
+}
+#password, #email{
+    height: 33px;
+    width: 285px;
+    border: #DADADA solid 1px;
+    border-radius: 3px;
+    margin: 6px;
+    padding-left: 10px;
+    margin-left: 70px;
+}
+label{
+    font-size: 15px;
+}
+#password{
+    margin-left: 148px;
+}
+#checkbox{
+    margin-left: 228px;
+}
+span{
+    color:blue;
+    text-decoration:solid underline;
+    float: right;
+    margin-right: 13px;
+}
+#submit{
+    color: white;
+    background-color: #6EB825;
+    height: 40px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left:170px ;
+    border: none;
+    border-bottom: 2px solid #6E943F;
+    border-radius: 3px;
+}

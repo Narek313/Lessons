@@ -1,0 +1,20 @@
+.box{
+    height: 350px;
+    width: 350px;
+    background-color:black;
+    border-radius: 50% 5% 5%;
+    border: double white 20px;
+    margin: 130px auto;
+}
+body{
+    background-color: rgb(39, 167, 39);
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: double black 20px;
+    border-radius: 90% 10% 10%;
+    margin-left: 25px;
+    margin-top: 10px;
+}

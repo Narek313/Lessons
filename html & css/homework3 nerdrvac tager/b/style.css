@@ -1,0 +1,14 @@
+pre{background-color: grey;
+	width: 20%;
+	margin: 200px auto;
+	display: block;
+	padding:50px;
+	padding-left: 190px;
+}
+pre::first-letter{
+font-size: 2em;
+color: red;
+}
+span{
+	color: blue;
+}

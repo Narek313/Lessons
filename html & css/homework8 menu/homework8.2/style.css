@@ -1,0 +1,30 @@
+li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    background-color: #3d3d3d;
+    padding: 20px 0;
+}
+ul{
+    background-color: #46494E;
+    color: white;
+    font-size: 20px;
+    padding: 100px 80px;
+    width: 770px;
+    margin: 150px auto;
+}
+.box1{
+    border-top: #F8A086 5px solid;
+}
+.box2{
+    border-top: #BBF397 5px solid;
+}
+.box3{
+    border-top: #E58C8D 5px solid;
+}
+.box4{
+    border-top: #DAAEFE 5px solid;
+}
+.box5{
+    border-top: #C1ED8D 5px solid;
+}

@@ -1,0 +1,26 @@
+li{
+    display: inline-block;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+}
+ul{ 
+    width: 800px;
+    background-color: #FC9D00;
+    color: white;
+    padding-left:10px;
+   
+}
+.box:hover{
+    background-color: #E93301;
+}
+ul li:before{
+    content: "\27A0";
+}
+div{
+    width: 810px;
+    padding: 15px;
+    margin: 150px auto;
+    border-top: black 1px dashed;
+    border-bottom: black 1px dashed;
+}

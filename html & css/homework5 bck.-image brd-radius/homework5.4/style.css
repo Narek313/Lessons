@@ -1,0 +1,52 @@
+.box{
+    height: 1050px;
+    width: 950px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5d95515402785c6b188dcbf2/1574288461188-1IQAQWARLM7Q3E4GQ2X1/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/image-asset.jpeg?format=2500w);
+    background-size: cover;
+    margin: 15px auto;
+    border: solid yellow 10px;
+}
+.box div{
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin: 25px;
+    overflow: hidden;
+    padding: 25px;
+}
+.box1{
+    background-color: rgb(255, 145, 0);
+    color: black;
+    border-radius: 35% 0 0 ;
+    text-align: justify;
+    word-spacing: 10px;
+}
+.box2{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10%;
+    border: solid rgb(197, 101, 32) 10px;
+    text-align: center;
+}
+.box3{
+    background-color: black;
+    color: white;
+    border-radius: 0 20%;
+    border:solid rgb(114, 24, 24) 10px ;
+    text-align: right;
+
+}
+h2{
+    text-decoration: overline solid;
+}
+h1{
+    text-decoration: underline solid;
+    letter-spacing: 5px;
+
+}
+.box3 p::first-letter{
+    font-size: 2em;
+}
+.box1 h2{
+    padding-left: 40px;
+}

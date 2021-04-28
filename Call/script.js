@@ -24,7 +24,7 @@ const harry = {
     age: 20
 }
 
-person.logInfo.bind(harry,'actor', '666-999-888')()
+// person.logInfo.bind(harry,'actor', '666-999-888')()
 // bind - stanum e shat parametrer, verjum prtadir petq e kanchel function-y
 
 // const harryLogInfo = person.logInfo.bind(harry,'actor', '666-999-888')
@@ -42,10 +42,10 @@ person.logInfo.bind(harry,'actor', '666-999-888')()
 
 //_____________________________Prototype___________________________
 
-const array = [1,2,3,4,5];
+// const array = [1,2,3,4,5];
 
-Array.prototype.multiply = function(n) {
-    return this.map(elem => elem * n)
-}
+// Array.prototype.multiply = function(n) {
+//     return this.map(elem => elem * n)
+// }
 
-console.log(array.multiply(5));
+// console.log(array.multiply(5));
